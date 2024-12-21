@@ -15,7 +15,9 @@ public class HelloServlet extends HttpServlet {
             throws ServletException, IOException {
          RequestDispatcher dispatcher = request.getRequestDispatcher("login.jsp");
          dispatcher.forward(request, response);
-         // or we can use response.sendDirect("login.jsp");
+         // or we can use response.sendDirect("login.jsp"); we can use this as well
+
+        // something change
     }
 
     protected void doPost ( HttpServletRequest request , HttpServletResponse response ) throws ServletException, IOException {
