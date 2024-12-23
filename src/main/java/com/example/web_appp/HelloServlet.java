@@ -1,7 +1,6 @@
 package com.example.web_appp;
 
 import java.io.*;
-import java.security.ProtectionDomain;
 import java.sql.SQLException;
 
 import jakarta.servlet.RequestDispatcher;
@@ -47,11 +46,9 @@ public class HelloServlet extends HttpServlet {
             database db = new database();
             db.add_operation(first_number, second_number, sum);
         } catch (SQLException e) {
-            e.printStackTrace(); // Log full SQL exception
-            request.setAttribute("error", "Database error: " + e.getMessage());
+             request.setAttribute("error", "Database error: " + e.getMessage());
         } catch (ClassNotFoundException e) {
-            e.printStackTrace(); // Log full ClassNotFoundException
-            request.setAttribute("error", "Class not found: " + e.getMessage());
+             request.setAttribute("error", "Class not found: " + e.getMessage());
         }
 
         // Forward the request to the JSP page
