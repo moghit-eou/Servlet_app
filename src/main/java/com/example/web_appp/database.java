@@ -7,13 +7,13 @@ import java.sql.SQLException;
 
 public class database {
     private Connection connection;
-    private String url = "jdbc:mysql://localhost/test_database";  // Ensure correct URL
     private String username = "root";
     private String password = "root";
 
     public database() throws SQLException , ClassNotFoundException {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
+             String url = "jdbc:mysql://localhost/test_database";  // Ensure correct URL
 
             // Establish connection
             connection = DriverManager.getConnection(url, username, password);
