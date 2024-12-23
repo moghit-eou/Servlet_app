@@ -4,6 +4,7 @@
   Date: 12/21/2024
   Time: 12:13 AM
   To change this template use File | Settings | File Templates.
+
 --%>
 
 
@@ -17,7 +18,7 @@
 <body>
         <h1>the first_value is ${num1}</h1>
         <h1>the second value is ${num2}</h1>
-        <h1>the sum of values is : ${result} </h1>
+        <h1>the sum of values is : ${somme} </h1>
 
 </body>
 </html>

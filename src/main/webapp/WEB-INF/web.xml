@@ -7,5 +7,8 @@
         <welcome-file-list>
             <welcome-file>opening.jsp</welcome-file>
         </welcome-file-list>
+        <!-- the server will be direction into this page
+        when it will be launched
+        -->
 
 </web-app>

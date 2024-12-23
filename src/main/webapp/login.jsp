@@ -16,11 +16,15 @@
 
     <form action="url_servlet" method="POST">  <!-- methode = "GET"  is  default-->
         <br/>
-        <label for="first_number">the first number </label>
+
+        <label for="first_number"> A </label>
         <input type="text" id="first_number" name="first_number">
+
         <br/>
-        <label for="second_number">the second number</label>
+        <label for="second_number"> B </label>
         <input type="text" id="second_number" name="second_number">
+
+
         <input type="submit" value="login">
     </form>
 </body>
