@@ -17,8 +17,7 @@ public class HelloServlet extends HttpServlet {
 
          RequestDispatcher dispatcher = request.getRequestDispatcher("login.jsp");
          dispatcher.forward(request, response);
-
-
+         // from ubuntu changes
          //response.sendDirect("login.jsp");
     }
 
