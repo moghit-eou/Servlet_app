@@ -6,6 +6,6 @@ public class Main {
         db.add_operation(10, 200, 30);
 
 
-            // windows intellij edit
+            // latest ubuntu
     }
 }
