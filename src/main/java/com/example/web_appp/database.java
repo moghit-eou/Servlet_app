@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-
+// trying to understand
 public class database {
     private Connection connection;
     private String username = "root";
@@ -22,6 +22,7 @@ public class database {
             System.out.println("Connection failed: " + e.getMessage());
         } catch (ClassNotFoundException e) {
             System.out.println("JDBC Driver not found: " + e.getMessage());
+
         }
     }
 
